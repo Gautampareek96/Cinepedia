@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cinepedia</string>
+    <string name="app_logo">Application Logo</string>
+    <string name="tagline">Your Movie Companion</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="search_hint">Search for movies...</string>
+    <string name="rating">Rating</string>
+    <string name="book_ticket">Book Ticket</string>
+    <string name="cast">Cast</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="name">Name</string>
+    <string name="register_prompt">Don\'t have an account? Register</string>
+    <string name="already_have_account">Already have an account?</string>
+</resources>

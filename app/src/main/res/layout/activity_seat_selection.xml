@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/black">
+
+    <!-- SCREEN LABEL -->
+    <TextView
+        android:id="@+id/screenLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCREEN THIS WAY"
+        android:textColor="#AAAAAA"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"
+        android:letterSpacing="0.1"
+        android:background="@drawable/screen_shape"/>
+
+    <!-- SCROLLABLE SEATS SECTION -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <GridLayout
+                android:id="@+id/seatGrid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alignmentMode="alignMargins"
+                android:columnCount="8"
+                android:rowCount="6"
+                android:layout_gravity="center"/>
+
+        </HorizontalScrollView>
+    </ScrollView>
+
+    <!-- SELECTED SEATS TEXT -->
+    <TextView
+        android:id="@+id/selectedSeatsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected Seats:"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_marginTop="12dp"/>
+
+    <!-- CONFIRM BUTTON -->
+    <Button
+        android:id="@+id/btnConfirmSeats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2962FF"
+        android:text="Confirm Seats"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>

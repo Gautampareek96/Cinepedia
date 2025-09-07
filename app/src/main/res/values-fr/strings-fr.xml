@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cinepedia</string>
+    <string name="tagline">Votre compagnon de films</string>
+    <string name="username">Nom dutilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="register_prompt">Pas de compte? Inscrivez-vous</string>
+</resources>

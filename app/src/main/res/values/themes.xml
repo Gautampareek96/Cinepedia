@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Cinepedia" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+        <!-- Background colors -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <!-- Input styles -->
+        <item name="textInputStyle">@style/Widget.Cinepedia.TextInputLayout</item>
+        <item name="materialButtonStyle">@style/Widget.Cinepedia.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.Cinepedia.CardView</item>
+    </style>
+
+    <style name="Widget.Cinepedia.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">12dp</item>
+        <item name="cardCornerRadius">28dp</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="rippleColor">@color/accent</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <style name="Widget.Cinepedia.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="boxStrokeWidth">1.5dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="hintTextAppearance">@style/TextAppearance.Cinepedia.InputHint</item>
+        <item name="boxBackgroundColor">@color/input_background</item>
+        <item name="errorTextColor">@color/error</item>
+        <item name="errorIconTint">@color/error</item>
+        <item name="startIconTint">@color/text_secondary</item>
+    </style>
+
+    <style name="TextAppearance.Cinepedia.InputHint" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Widget.Cinepedia.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="elevation">8dp</item>
+        <item name="rippleColor">@color/white</item>
+    </style>
+</resources>
